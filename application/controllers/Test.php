@@ -15,7 +15,8 @@ class Test extends CI_Controller
         $this->api = new \Rose\Api();
     }
 
-    public function myTest(){
+    public function myTest()
+    {
         $h = new \Hello\HelloWorld();
         $h->say_hello();
 
